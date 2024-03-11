@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinancyControl.API</name>
+    </assembly>
+    <members>
+        <member name="M:FinancyControl.API.Controllers.DespesaController.ListAsync(FinancyControl.API.Resources.DespesaQueryResource)">
+            <summary>
+            Lists all existing Despesa according to query filters.
+            </summary>
+            <returns>List of Despesa.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.DespesaController.PostAsync(FinancyControl.API.Resources.SaveDespesaResource)">
+            <summary>
+            Saves a new Despesa.
+            </summary>
+            <param name="resource">Despesa data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.DespesaController.PutAsync(System.Int32,FinancyControl.API.Resources.SaveDespesaResource)">
+            <summary>
+            Updates an existing Despesa according to an identifier.
+            </summary>
+            <param name="id">Despesa identifier.</param>
+            <param name="resource">Despesa data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.DespesaController.DeleteAsync(System.Int32)">
+            <summary>
+            Deletes a given Despesa according to an identifier.
+            </summary>
+            <param name="id">Despesa identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.TipoDespesaController.ListAsync">
+            <summary>
+            Lista todos dos tipos de despesas.
+            </summary>
+            <returns>List os categories.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.TipoDespesaController.PostAsync(FinancyControl.API.Resources.SaveTipoDespesaResource)">
+            <summary>
+            Sava um novo tipo de despesa.
+            </summary>
+            <param name="resource">TipoDespesa data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.TipoDespesaController.PutAsync(System.Int32,FinancyControl.API.Resources.SaveTipoDespesaResource)">
+            <summary>
+            Updates an existing TipoDespesa according to an identifier.
+            </summary>
+            <param name="id">TipoDespesa identifier.</param>
+            <param name="resource">Updated TipoDespesa data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:FinancyControl.API.Controllers.TipoDespesaController.DeleteAsync(System.Int32)">
+            <summary>
+            Deletes a given TipoDespesa according to an identifier.
+            </summary>
+            <param name="id">TipoDespesa identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+    </members>
+</doc>

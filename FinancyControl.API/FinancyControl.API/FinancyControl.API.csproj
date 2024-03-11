@@ -4,24 +4,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\net8.0\FinancyControl.API.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\Config\" />
-    <Folder Include="Domain\Models\Queries\" />
-    <Folder Include="Domain\Repositories\" />
-    <Folder Include="Domain\Services\Communication\" />
-    <Folder Include="Extension\" />
-    <Folder Include="Infraestructure\" />
-    <Folder Include="Mapping\" />
-    <Folder Include="Persistence\Contexts\Configurations\" />
-    <Folder Include="Persistence\Repositories\" />
-    <Folder Include="Services\" />
-    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>
